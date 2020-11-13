@@ -1,0 +1,6 @@
+{
+    "name": "lang-sandstone",
+    "extensions": [
+        ".ts"
+    ]
+}
