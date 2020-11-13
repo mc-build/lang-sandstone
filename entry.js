@@ -32,7 +32,6 @@ module.exports = function MC_EXTRA(registry) {
     io.LoadTag.reset(file);
     core.savePack("mcb", {
       customFileHandler(info) {
-        console.log(info);
         if (info.type === "tags") {
           if (info.relativePath.endsWith("tick.json")) {
             io.TickTag.set(file, info.resource.values);
